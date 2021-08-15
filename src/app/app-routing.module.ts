@@ -8,7 +8,7 @@ import { ErrorPageComponent } from './shared/error-page/error-page.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'heroes',
+    redirectTo: 'auth',
     pathMatch: 'full'
   },
   {
