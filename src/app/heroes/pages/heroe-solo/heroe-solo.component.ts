@@ -9,8 +9,10 @@ import { HeroesService } from '../../services/heroes.service';
   templateUrl: './heroe-solo.component.html',
   styles: [`
     img{
-      width: 100%;
-      height: 100%;
+      margin-top: 30px;
+      width: 80%;
+      height: 80%;
+      border-radius: 10px;
     }
   `
   ]

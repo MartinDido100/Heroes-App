@@ -13,9 +13,11 @@ import { ConfirmarComponent } from '../../components/confirmar/confirmar.compone
   styles: [`
   
     img{
-      width: 100%;
-      height: 100%
-    }
+        margin-top: 30px;
+        width: 700px;
+        height: 700px;
+        border-radius: 10px;
+      }
   `
   ]
 })

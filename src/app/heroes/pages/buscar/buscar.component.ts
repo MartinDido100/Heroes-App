@@ -6,7 +6,13 @@ import { Heroe} from '../../interfaces/heroes.interfaces'
 @Component({
   selector: 'app-buscar',
   templateUrl: './buscar.component.html',
-  styles: [
+  styles: [`
+  
+    .heroe{
+      width: 300px;
+      height: 300px;
+    }
+  `
   ]
 })
 export class BuscarComponent implements OnInit {

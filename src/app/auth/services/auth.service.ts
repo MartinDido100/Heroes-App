@@ -41,7 +41,8 @@ export class AuthService {
     )
   }
 
-  logout(){
+  logSinUser(){
     this._auth = undefined;
+    localStorage.setItem('token', '2');
   }
 }

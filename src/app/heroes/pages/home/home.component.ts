@@ -33,7 +33,14 @@ export class HomeComponent implements OnInit {
   }
 
   logout(){
-    this.router.navigate(['/auth'])
+    this.router.navigate(['/auth']);
+    localStorage.removeItem('token');
+  }
+
+  verNombre(): string{
+    return (localStorage.getItem('token') === '2')
+           ? 'Invitado'
+           : this.auth.usuario!
   }
 
 }

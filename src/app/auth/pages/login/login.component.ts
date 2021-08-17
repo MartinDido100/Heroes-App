@@ -6,7 +6,9 @@ import { AuthService } from '../../services/auth.service';
   selector: 'app-login',
   templateUrl: './login.component.html',
   styles: [`
-
+    button{
+      padding: 0 50px;
+    }
   `
   ]
 })
@@ -29,7 +31,7 @@ export class LoginComponent {
   }
 
   sinLogin(){
-    this.autService.logout();
+    this.autService.logSinUser();
     this.router.navigate(['./heroes'])
   }
 }
