@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://heroes10.herokuapp.com'
+  baseUrl: 'https://localhost:3000'
 };
